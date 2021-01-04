@@ -62,7 +62,7 @@ process of breaking a large, complex task into smaller and smaller
 subtasks until the subtasks are simple enough to be performed with one
 of these basic instructions.
 
-# 1.2 Running Python
+## 1.2 Running Python
 
 Install VSCode and Python 3.8.6 version.
 

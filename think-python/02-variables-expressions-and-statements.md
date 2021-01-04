@@ -1,14 +1,12 @@
 <link rel="stylesheet" type="text/css" media="all" href="./assets/css/book.css" />
 
-Variables, expressions and statements
-=====================================
+# Variables, expressions and statements
 
 One of the most powerful features of a programming language is the
 ability to manipulate <span>**variables**</span>. A variable is a name
 that refers to a value.
 
-Assignment statements {#variables}
----------------------
+## 2.1 Assignment statements
 
 An <span>**assignment statement**</span> creates a new variable and
 gives it a value:
@@ -32,8 +30,7 @@ Figure [fig.state2] shows the result of the previous example.
 
 [fig.state2]
 
-Variable names
---------------
+## 2.2 Variable names
 
 Programmers generally choose names for their variables that are
 meaningful—they document what the variable is used for.
@@ -78,8 +75,7 @@ You don’t have to memorize this list. In most development environments,
 keywords are displayed in a different color; if you try to use one as a
 variable name, you’ll know.
 
-Expressions and statements
---------------------------
+## 2.3 Expressions and statements
 
 An <span>**expression**</span> is a combination of values, variables,
 and operators. A value all by itself is considered an expression, and so
@@ -111,8 +107,7 @@ When you type a statement, the interpreter <span>**executes**</span> it,
 which means that it does whatever the statement says. In general,
 statements don’t have values.
 
-Script mode
------------
+## 2.4 Script mode
 
 So far we have run Python in <span>**interactive mode**</span>, which
 means that you interact directly with the interpreter. Interactive mode
@@ -166,8 +161,7 @@ Now put the same statements in a script and run it. What is the output?
 Modify the script by transforming each expression into a print statement
 and then run it again.
 
-Order of operations
--------------------
+## 2.5 Order of operations
 
 When an expression contains more than one operator, the order of
 evaluation depends on the <span>**order of operations**</span>. For
@@ -201,8 +195,7 @@ I don’t work very hard to remember the precedence of operators. If I
 can’t tell by looking at the expression, I use parentheses to make it
 obvious.
 
-String operations
------------------
+## 2.6 String operations
 
 In general, you can’t perform mathematical operations on strings, even
 if the strings look like numbers, so the following are illegal:
@@ -232,8 +225,7 @@ significant way in which string concatenation and repetition are
 different from integer addition and multiplication. Can you think of a
 property that addition has that string concatenation does not?
 
-Comments
---------
+# 2.7 Comments
 
 As programs get bigger and more complicated, they get more difficult to
 read. Formal languages are dense, and it is often difficult to look at a
@@ -270,8 +262,7 @@ This comment contains useful information that is not in the code:
 Good variable names can reduce the need for comments, but long names can
 make complex expressions hard to read, so there is a tradeoff.
 
-Debugging
----------
+## 2.8 Debugging
 
 Three kinds of errors can occur in a program: syntax errors, runtime
 errors, and semantic errors. It is useful to distinguish between them in
@@ -310,8 +301,7 @@ Semantic error:
     work backward by looking at the output of the program and trying to
     figure out what it is doing.
 
-Glossary
---------
+## 2.9 Glossary
 
 variable:
 :   A name that refers to a value.
@@ -382,10 +372,9 @@ semantic error:
 :   An error in a program that makes it do something other than what the
     programmer intended.
 
-Exercises
----------
+2.10 Exercises
 
-Repeating my advice from the previous chapter, whenever you learn a new
+**Exercise 2.1.** Repeating my advice from the previous chapter, whenever you learn a new
 feature, you should try it out in interactive mode and make errors on
 purpose to see what goes wrong.
 
@@ -400,19 +389,19 @@ purpose to see what goes wrong.
 
 -   What if you put a period at the end of a statement?
 
--   In math notation you can multiply $x$ and $y$ like this: $x y$. What
+-   In math notation you can multiply x and y like this: x y. What
     happens if you try that in Python?
 
-Practice using the Python interpreter as a calculator:
+**Exercise 2.2.** Practice using the Python interpreter as a calculator:
 
-1.  The volume of a sphere with radius $r$ is $\frac{4}{3} \pi r^3$.
+1. The volume of a sphere with radius 'r' is 4/3 pi r^3.
     What is the volume of a sphere with radius 5?
 
-2.  Suppose the cover price of a book is \$24.95, but bookstores get a
-    40% discount. Shipping costs \$3 for the first copy and 75 cents for
+2. Suppose the cover price of a book is Rs 250, but bookstores get a
+    40% discount. Shipping costs Rs 30 for the first copy and Rs 7.50 for
     each additional copy. What is the total wholesale cost for 60
     copies?
 
-3.  If I leave my house at 6:52 am and run 1 mile at an easy pace (8:15
+3. If I leave my house at 6:52 am and run 1 mile at an easy pace (8:15
     per mile), then 3 miles at tempo (7:12 per mile) and 1 mile at easy
     pace again, what time do I get home for breakfast?
