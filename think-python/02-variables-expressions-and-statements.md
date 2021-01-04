@@ -18,7 +18,7 @@ gives it a value:
 This example makes three assignments. The first assigns a string to a
 new variable named <span>message</span>; the second gives the integer
 <span>17</span> to <span>n</span>; the third assigns the (approximate)
-value of $\pi$ to <span>pi</span>.
+value of 'pi' to <span>pi</span>.
 
 A common way to represent variables on paper is to write the name with
 an arrow pointing to its value. This kind of figure is called a
@@ -378,18 +378,18 @@ semantic error:
 feature, you should try it out in interactive mode and make errors on
 purpose to see what goes wrong.
 
--   We’ve seen that <span>n = 42</span> is legal. What about <span>42 =
+- We’ve seen that <span>n = 42</span> is legal. What about <span>42 =
     n</span>?
 
--   How about <span>x = y = 1</span>?
+- How about <span>x = y = 1</span>?
 
--   In some languages every statement ends with a semi-colon,
+- In some languages every statement ends with a semi-colon,
     <span>;</span>. What happens if you put a semi-colon at the end of a
     Python statement?
 
--   What if you put a period at the end of a statement?
+- What if you put a period at the end of a statement?
 
--   In math notation you can multiply x and y like this: x y. What
+- In math notation you can multiply x and y like this: x y. What
     happens if you try that in Python?
 
 **Exercise 2.2.** Practice using the Python interpreter as a calculator:
