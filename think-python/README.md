@@ -7,3 +7,4 @@ Customized the open-source book [Think Python](https://greenteapress.com/wp/thin
 ## Chapters
 01 - [The way of the program](01-the-way-of-the-program.md)  
 02 - [Variables expressions and statements](02-variables-expressions-and-statements.md)  
+03 - [Functions](03-functions.md)  
