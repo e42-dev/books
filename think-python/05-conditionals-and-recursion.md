@@ -562,7 +562,7 @@ a^n + b^n = c^n for any values of n greater than 2.
 
 1.  Write a function named `check_fermat` that takes four
     parameters—<span>a</span>, <span>b</span>, <span>c</span> and
-    <span>n</span>—and checks to see if Fermat’s theorem holds. If $n$
+    <span>n</span>—and checks to see if Fermat’s theorem holds. If n
     is greater than 2 and
 
     a^n + b^n = c^n the program should print, “Holy smokes, Fermat
