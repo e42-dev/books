@@ -9,3 +9,4 @@ Customized the open-source book [Think Python](https://greenteapress.com/wp/thin
 02 - [Variables expressions and statements](02-variables-expressions-and-statements.md)  
 03 - [Functions](03-functions.md)  
 04 - [Case study interface design](04-case-study-interface-design.md)  
+05 - [Conditionals and recursion](05-conditionals-and-recursion.md)  
