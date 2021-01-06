@@ -303,7 +303,7 @@ the remaining lines of the function don’t run.
 
 The rest of the function is similar to <span>countdown</span>: it
 displays <span>s</span> and then calls itself to display <span>s</span>
-$n-1$ additional times. So the number of lines of output is <span>1 + (n
+'n-1' additional times. So the number of lines of output is <span>1 + (n
 - 1)</span>, which adds up to <span>n</span>.
 
 For simple examples like this, it is probably easier to use a
