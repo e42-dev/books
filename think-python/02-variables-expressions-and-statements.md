@@ -24,11 +24,11 @@ A common way to represent variables on paper is to write the name with
 an arrow pointing to its value. This kind of figure is called a
 <span>**state diagram**</span> because it shows what state each of the
 variables is in (think of it as the variable’s state of mind).
-Figure [fig.state2] shows the result of the previous example.
+Figure 2.1 shows the result of the previous example.
 
-![image](figs/state2.pdf)
+![image](assets/figs/chap02-img-01.png)
 
-[fig.state2]
+Figure 2.1: State diagram
 
 ## 2.2 Variable names
 
