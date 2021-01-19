@@ -10,7 +10,7 @@ in Section [repetition]. In this chapter we’ll see yet another kind,
 using a <span>while</span> statement. But first I want to say a little
 more about variable assignment.
 
-Reassignment
+7.1 Reassignment
 ------------
 
 As you may have discovered, it is legal to make more than one assignment
@@ -63,7 +63,7 @@ code difficult to read and debug.
 
 [fig.assign2]
 
-Updating variables {#update}
+7.2 Updating variables
 ------------------
 
 A common kind of reassignment is an <span>**update**</span>, where the
@@ -90,7 +90,7 @@ Before you can update a variable, you have to
 Updating a variable by adding 1 is called an <span>**increment**</span>;
 subtracting 1 is called a <span>**decrement**</span>.
 
-The <span>while</span> statement
+7.3 The <span>while</span> statement
 --------------------------------
 
 Computers are often used to automate repetitive tasks. Repeating
@@ -179,7 +179,7 @@ has been able to prove it <span>*or*</span> disprove it! (See
 As an exercise, rewrite the function `print_n` from Section [recursion]
 using iteration instead of recursion.
 
-<span>break</span>
+7.4 <span>break</span>
 ------------------
 
 Sometimes you don’t know it’s time to end a loop until you get half way
@@ -215,7 +215,7 @@ check the condition anywhere in the loop (not just at the top) and you
 can express the stop condition affirmatively (“stop when this happens”)
 rather than negatively (“keep going until that happens”).
 
-Square roots {#squareroot}
+7.5 Square roots
 ------------
 
 Loops are often used in programs that compute numerical results by
@@ -294,7 +294,7 @@ them:
 Where `epsilon` has a value like <span>0.0000001</span> that determines
 how close is close enough.
 
-Algorithms
+7.6 Algorithms
 ----------
 
 Newton’s method is an example of an <span>**algorithm**</span>: it is a
@@ -328,7 +328,7 @@ Understanding natural language is a good example. We all do it, but so
 far no one has been able to explain <span>*how*</span> we do it, at
 least not in the form of an algorithm.
 
-Debugging {#bisectbug}
+7.7 Debugging
 ---------
 
 As you start writing bigger programs, you might find yourself spending
@@ -359,7 +359,7 @@ program where there might be errors and places where it is easy to put a
 check. Then choose a spot where you think the chances are about the same
 that the bug is before or after the check.
 
-Glossary
+7.8 Vocabulary
 --------
 
 reassignment:
@@ -389,7 +389,7 @@ infinite loop:
 algorithm:
 :   A general process for solving a category of problems.
 
-Exercises
+7.9 Exercises
 ---------
 
 Copy the loop from Section [squareroot] and encapsulate it in a function

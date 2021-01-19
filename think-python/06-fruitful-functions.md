@@ -9,7 +9,7 @@ they have an effect, like printing a value or moving a turtle, but they
 don’t have a return value. In this chapter you will learn to write
 fruitful functions.
 
-Return values
+6.1 Return values
 -------------
 
 Calling the function generates a return value, which we usually assign
@@ -87,7 +87,7 @@ values, <span>x</span> and <span>y</span>, and returns <span>1</span> if
 <span>x \> y</span>, <span>0</span> if <span>x == y</span>, and
 <span>-1</span> if <span>x \< y</span>.
 
-Incremental development {#incremental.development}
+6.2 Incremental development
 -----------------------
 
 As you write larger functions, you might find yourself spending more
@@ -203,7 +203,7 @@ As an exercise, use incremental development to write a function called
 right triangle given the lengths of the other two legs as arguments.
 Record each stage of the development process as you go.
 
-Composition
+6.3 Composition
 -----------
 
 As you should expect by now, you can call one function from within
@@ -238,7 +238,7 @@ we can make it more concise by composing the function calls:
     def circle_area(xc, yc, xp, yp):
         return area(distance(xc, yc, xp, yp))
 
-Boolean functions {#boolean}
+6.4 Boolean functions
 -----------------
 
 Functions can return booleans, which is often convenient for hiding
@@ -283,7 +283,7 @@ But the extra comparison is unnecessary.
 As an exercise, write a function `is_between(x, y, z)` that returns
 <span>True</span> if $x \le y \le z$ or <span>False</span> otherwise.
 
-More recursion {#more.recursion}
+6.5 More recursion
 --------------
 
 We have only covered a small subset of Python, but you might be
@@ -392,7 +392,7 @@ In the last frame, the local variables <span>recurse</span> and
 <span>result</span> do not exist, because the branch that creates them
 does not run.
 
-Leap of faith
+6.6 Leap of faith
 -------------
 
 Following the flow of execution is one way to read programs, but it can
@@ -424,7 +424,7 @@ Of course, it’s a bit strange to assume that the function works
 correctly when you haven’t finished writing it, but that’s why it’s
 called a leap of faith!
 
-One more example {#one.more.example}
+6.7 One more example
 ----------------
 
 After <span>factorial</span>, the most common example of a recursively
@@ -452,7 +452,7 @@ values of $n$, your head explodes. But according to the leap of faith,
 if you assume that the two recursive calls work correctly, then it is
 clear that you get the right result by adding them together.
 
-Checking types {#guardian}
+6.8 Checking types
 --------------
 
 What happens if we call <span>factorial</span> and give it 1.5 as an
@@ -513,7 +513,7 @@ The guardians make it possible to prove the correctness of the code.
 In Section [raise] we will see a more flexible alternative to printing
 an error message: raising an exception.
 
-Debugging {#factdebug}
+6.9 Debugging
 ---------
 
 Breaking a large program into smaller functions creates natural
@@ -578,7 +578,7 @@ If you are confused about the flow of execution, this kind of output can
 be helpful. It takes some time to develop effective scaffolding, but a
 little bit of scaffolding can save a lot of debugging.
 
-Glossary
+6.10 Vocabulary
 --------
 
 temporary variable:
@@ -601,7 +601,7 @@ guardian:
 :   A programming pattern that uses a conditional statement to check for
     and handle circumstances that might cause an error.
 
-Exercises
+6.11 Exercises
 ---------
 
 Draw a stack diagram for the following program. What does the program
