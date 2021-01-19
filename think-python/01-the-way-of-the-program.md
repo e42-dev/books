@@ -321,7 +321,7 @@ useful for many activities beyond programming. At the end of each
 chapter there is a section, like this one, with my suggestions for
 debugging. I hope they help!
 
-## 1.8 Glossary
+## 1.8 Vocabulary
 
 problem solving:
 :   The process of formulating a problem, finding a solution, and

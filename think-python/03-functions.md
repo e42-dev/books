@@ -515,7 +515,7 @@ used to explore the Intel 80386 chip. According to Larry Greenfield,
 printing AAAA and BBBB. This later evolved to Linux.” (<span>*The Linux
 Users’ Guide*</span> Beta Version 1).
 
-## 3.13 Glossary
+## 3.13 Vocabulary
 
 function:
 :   A named sequence of statements that performs some useful operation.

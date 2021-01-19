@@ -478,7 +478,7 @@ which uses floor division instead of floating-point division.
 You should take the time to read error messages carefully, but don’t
 assume that everything they say is correct.
 
-## 5.13 Glossary
+## 5.13 Vocabulary
 
 floor division:
 :   An operator, denoted <span>//</span>, that divides two numbers and

@@ -301,7 +301,7 @@ Semantic error:
     work backward by looking at the output of the program and trying to
     figure out what it is doing.
 
-## 2.9 Glossary
+## 2.9 Vocabulary
 
 variable:
 :   A name that refers to a value.

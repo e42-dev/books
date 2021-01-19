@@ -472,7 +472,7 @@ If the preconditions are satisfied and the postconditions are not, the
 bug is in the function. If your pre- and postconditions are clear, they
 can help with debugging.
 
-## 4.11 Glossary
+## 4.11 Vocabulary
 
 method:
 :   A function that is associated with an object and called using dot
