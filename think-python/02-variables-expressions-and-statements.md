@@ -188,7 +188,7 @@ acronym <span>**PEMDAS**</span> is a useful way to remember the rules:
 -   Operators with the same precedence are evaluated from left to right
     (except exponentiation). So in the expression <span>degrees / 2 \*
     pi</span>, the division happens first and the result is multiplied
-    by <span>pi</span>. To divide by $2 \pi$, you can use parentheses or
+    by <span>pi</span>. To divide by <span>2\*pi</span>, you can use parentheses or
     write <span>degrees / 2 / pi</span>.
 
 I don’t work very hard to remember the precedence of operators. If I

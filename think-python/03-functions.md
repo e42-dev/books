@@ -376,11 +376,11 @@ function each variable belongs to.
 Each function is represented by a <span>**frame**</span>. A frame is a
 box with the name of a function beside it and the parameters and
 variables of the function inside it. The stack diagram for the previous
-example is shown in Figure [fig.stack].
+example is shown in Figure 3.1.
 
-![image](figs/stack.pdf)
+![image](assets/figs/chap03-img-stack.png)
 
-[fig.stack]
+Figure 3.1
 
 The frames are arranged in a stack that indicates which function called
 which, and so on. In this example, `print_twice` was called by
